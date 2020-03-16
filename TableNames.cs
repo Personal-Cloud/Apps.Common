@@ -1,0 +1,10 @@
+﻿namespace Unishare.Apps.Common
+{
+    public static class TableNames
+    {
+        public const string Cloud = "Cloud";
+        public const string Devices = "Device";
+        public const string Nodes = "Node";
+        public const string Settings = "Mapping";
+    }
+}
