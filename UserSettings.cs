@@ -3,9 +3,13 @@
     public static class UserSettings
     {
         public const string EnableSharing = "Global.Share";
-        public const string EnbalePhotoSharing = "Global.SyncPhotos";
-        public const string AutoBackupPhotos = "Global.SyncPhotosAuto";
         public const string SharingRoot = "Global.ShareRoot";
+
+        public const string EnbalePhotoSharing = "Global.SyncPhotos";
+    
+        public const string AutoBackupPhotos = "Global.SyncPhotosAuto";
+        public const string PhotoBackupTask = "Global.PhotoWorkID";
+        public const string PhotoBackupNotification = "Global.PhotoAlertID";
         public const string PhotoBackupPrefix = "Global.PhotoRoot";
         public const string PhotoBackupInterval = "Global.PhotoInterval";
 
