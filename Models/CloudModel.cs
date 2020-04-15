@@ -12,6 +12,7 @@ namespace Unishare.Apps.Common.Models
 
         public string Name { get; set; }
         public string Key { get; set; }
+        public string StorageProviders { get; set; }
         public long Version { get; set; }
     }
 }
