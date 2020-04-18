@@ -16,5 +16,7 @@
         public const string DeviceId = "Cloud.Node.ID";
         public const string DevicePort = "Cloud.Node.Port";
         public const string DeviceName = "Cloud.Node.Name";
+
+        public const string LastInstalledVersion = "Global.AppVersion";
     }
 }
