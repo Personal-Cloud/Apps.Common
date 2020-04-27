@@ -4,19 +4,19 @@ using SQLite;
 
 namespace Unishare.Apps.Common.Models
 {
-    [Table("AliYunOSS")]
-    public class AliYunOSS
+    [Table(TableNames.AzureBlob)]
+    public class AzureBlob
     {
+        [PrimaryKey]
+        public Guid Id {get;set;}
+
         [Indexed]
         public Guid CloudId { get; set; }
 
         [Indexed]
         public string Name { get; set; }
 
-        public string Endpoint { get; set; }
-        public string Bucket { get; set; }
-        public string AccessID { get; set; }
-        public string AccessSecret { get; set; }
+        public string Parameters { get; set; }
 
         public int Visibility { get; set; }
     }
