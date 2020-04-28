@@ -7,4 +7,9 @@
   <ItemGroup>
     <PackageReference Include="sqlite-net-base" Version="1.6.292" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove=".git" />
+    <None Remove=".editorconfig" />
+    <None Remove=".gitignore" />
+  </ItemGroup>
 </Project>
