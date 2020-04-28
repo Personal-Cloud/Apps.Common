@@ -11,12 +11,13 @@ namespace Unishare.Apps.Common.Models
         public Guid Id {get;set;}
 
         [Indexed]
-        public Guid CloudId { get; set; }
+        public Guid Cloud { get; set; }
 
         [Indexed]
         public string Name { get; set; }
 
         public string Parameters { get; set; }
+        public string Container { get; set; }
 
         public int Visibility { get; set; }
     }
