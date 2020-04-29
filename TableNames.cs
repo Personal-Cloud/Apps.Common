@@ -8,5 +8,6 @@
         public const string Settings = "Mapping";
         public const string AlibabaOSS = "Alibaba";
         public const string AzureBlob = "Azure";
+        public const string Apps = "Web App";
     }
 }

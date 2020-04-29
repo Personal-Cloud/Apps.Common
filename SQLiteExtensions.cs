@@ -1,4 +1,6 @@
-﻿using SQLite;
+﻿using System.Linq;
+
+using SQLite;
 
 using Unishare.Apps.Common.Models;
 
@@ -22,6 +24,12 @@ namespace Unishare.Apps.Common
                 Key = key,
                 Value = value
             }) == 1;
+        }
+
+        public static bool IsStorageNameUnique(this SQLiteConnection database, string name)
+        {
+            return !database.Table<AlibabaOSS>().Any(x => x.Name == name) &&
+                   !database.Table<AzureBlob>().Any(x => x.Name == name);
         }
     }
 }
