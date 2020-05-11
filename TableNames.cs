@@ -9,6 +9,5 @@
         public const string AlibabaOSS = "Alibaba";
         public const string AzureBlob = "Azure";
         public const string Apps = "Web App";
-        public const string Launchers = "App Launcher";
     }
 }
