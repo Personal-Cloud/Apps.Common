@@ -1,6 +1,6 @@
 ﻿using SQLite;
 
-namespace Unishare.Apps.Common.Models
+namespace NSPersonalCloud.Common.Models
 {
     [Table(TableNames.Settings)]
     public class KeyValueModel

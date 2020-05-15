@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>Unishare.Apps.Common</RootNamespace>
+    <RootNamespace>NSPersonalCloud.Common</RootNamespace>
+    <AssemblyName>PersonalCloud.Common</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="sqlite-net-base" Version="1.6.292" />

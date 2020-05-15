@@ -2,9 +2,9 @@
 
 using SQLite;
 
-using Unishare.Apps.Common.Models;
+using NSPersonalCloud.Common.Models;
 
-namespace Unishare.Apps.Common
+namespace NSPersonalCloud.Common
 {
     public static class SQLiteExtensions
     {

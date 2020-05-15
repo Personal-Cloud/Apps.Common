@@ -2,7 +2,7 @@
 
 using SQLite;
 
-namespace Unishare.Apps.Common.Models
+namespace NSPersonalCloud.Common.Models
 {
     [Table(TableNames.Devices)]
     public class DeviceModel

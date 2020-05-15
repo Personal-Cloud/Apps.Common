@@ -1,4 +1,4 @@
-﻿namespace Unishare.Apps.Common
+﻿namespace NSPersonalCloud.Common
 {
     public static class TableNames
     {
