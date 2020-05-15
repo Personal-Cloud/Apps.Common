@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Unishare.Apps.Common
+namespace NSPersonalCloud.Common
 {
     public static class EnumerableExtensions
     {
