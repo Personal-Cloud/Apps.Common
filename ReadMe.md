@@ -1,3 +1,3 @@
-# Personal Cloud Shared Application Module
+# Personal Cloud Client Shared Module
 
-This module contains shared logic and resources across all platforms.
+This module contains shared logic and resources across all client platforms.
